@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Wualy</title>
+  <link rel="icon" href="/Images/heart Icon.ico">
+  <link rel="stylesheet" href="/sass-2/cancion.css">
+</head>
+
+<body>
+
+  <div class="player">
+
+    <div class="player__header">
+
+      <div class="player__img player__img--absolute slider">
+
+        <button class="player__button player__button--absolute--nw playlist">
+
+          <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+
+        </button>
+
+        <button class="player__button player__button--absolute--center play">
+
+          <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+          <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+
+        </button>
+
+        <div class="slider__content">
+
+          <img class="img slider__img" src="/images-cancion/me haces bien.jpg" alt="cover">
+          <img class="img slider__img" src="/images-cancion/no mas tu.jpg" alt="cover">
+          <img class="img slider__img" src="/images-cancion/que seria de mi.jpg" alt="cover">
+          <img class="img slider__img" src="/images-cancion/es que yo te quiero a ti.jpg" alt="cover">
+          <img class="img slider__img" src="/images-cancion/es que yo te quiero a ti.jpg" alt="cover">
+          <img class="img slider__img" src="/images-cancion/de camino a ti.jpg" alt="cover">
+          <img class="img slider__img" src="/images-cancion/seguro te pierdo.jpg" alt="cover">
+
+        </div>
+
+      </div>
+
+      <div class="player__controls">
+
+        <button class="player__button back">
+
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+
+        </button>
+
+        <p class="player__context slider__context">
+
+          <strong class="slider__name"></strong>
+          <span class="player__title slider__title"></span>
+
+        </p>
+
+        <button class="player__button next">
+
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+
+        </button>
+
+        <div class="progres">
+
+          <div class="progres__filled"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <ul class="player__playlist list">
+
+      <li class="player__song">
+
+        <img class="player__img img" src="/images-cancion/me haces bien.jpg" alt="cover">
+
+        <p class="player__context">
+
+          <b class="player__song-name">me haces bien</b>
+          <span class="flex">
+
+            <span class="player__title">Josué Alaniz</span>
+            <span class="player__song-time"></span>
+
+          </span>
+
+        </p>
+
+        <audio class="audio" src="/songs/Josué Alaniz  me haces bien visual.mp3"></audio>
+
+      </li>
+
+      <li class="player__song">
+
+        <img class="player__img img" src="/images-cancion/no mas tu.jpg" alt="cover">
+
+        <p class="player__context">
+
+          <b class="player__song-name">nomás tú</b>
+          <span class="flex">
+
+            <span class="player__title">El David</span>
+            <span class="player__song-time"></span>
+
+          </span>
+
+        </p>
+
+        <audio class="audio" src="/songs/El David  nomás tú.mp3"></audio>
+
+      </li>
+
+      <li class="player__song">
+
+        <img class="player__img img" src="/images-cancion/que seria de mi.jpg" alt="cover">
+
+        <p class="player__context">
+
+          <b class="player__song-name">qué sería de mi</b>
+          <span class="flex">
+
+            <span class="player__title">El David</span>
+            <span class="player__song-time"></span>
+
+          </span>
+
+        </p>
+
+        <audio class="audio" src="/songs/El David  Qué sería de mi.mp3"></audio>
+
+      </li>
+
+      <li class="player__song">
+
+        <img class="player__img img" src="/images-cancion/es que yo te quiero a ti.jpg" alt="cover">
+
+        <p class="player__context">
+
+          <b class="player__song-name">es que yo te quiero a ti</b>
+          <span class="flex">
+
+            <span class="player__title">Kevin Kaarl</span>
+            <span class="player__song-time"></span>
+
+          </span>
+
+        </p>
+
+        <audio class="audio" src="/songs/Kevin Kaarl  Es Que Yo Te Quiero A Ti Lyric Video.mp3"></audio>
+
+      </li>
+
+      <li class="player__song">
+
+        <img class="player__img img" src="/images-cancion/es que yo te quiero a ti.jpg" alt="cover">
+
+        <p class="player__context ">
+
+          <b class="player__song-name">si supieras</b>
+          <span class="flex">
+
+            <span class="player__title">kevin kaarl</span>
+            <span class="player__song-time"></span>
+
+          </span>
+
+        </p>
+
+        <audio class="audio" src="/songs/Si Supieras.mp3"></audio>
+
+      </li>
+
+      <li class="player__song">
+
+        <img class="player__img img" src="/images-cancion/de camino a ti.jpg" alt="cover">
+
+        <p class="player__context">
+
+          <b class="player__song-name">de camino a ti</b>
+          <span class="flex">
+
+            <span class="player__title">piter-g</span>
+            <span class="player__song-time"></span>
+
+          </span>
+
+        </p>
+
+        <audio class="audio" src="/songs/PiterG  De camino a ti Prod por PiterG.mp3"></audio>
+
+      </li>
+
+      <li class="player__song">
+
+        <img class="player__img img" src="/images-cancion/seguro te pierdo.jpg" alt="cover">
+
+        <p class="player__context ">
+
+          <b class="player__song-name">seguro te pierdo<span class="uppercase"></span></b>
+          <span class="flex">
+
+            <span class="player__title">KID FLEX</span>
+            <span class="player__song-time"></span>
+
+          </span>
+
+        </p>
+
+        <audio class="audio" src="/songs/Seguro Que pierdo.mp3"></audio>
+
+      </li>
+
+
+      <a href="carta.html">
+        <div class="boton">
+          <button class="bubbly-button">Carta</button>
+        </div>
+      </a>
+    </ul>
+
+
+
+
+  </div>
+
+
+
+</body>
+<script src="/js/cancion.js"></script>
+
+</html>
